@@ -49,12 +49,14 @@ header{
 }
 
 .add.task{
+    color: white;
     background-color: #47adf1;
     border: none;
 }
 
 .add.section{
     color: gray;
+    background-color: white;
     border-color: #f6f8f9;
 }
 
@@ -75,3 +77,25 @@ header{
     margin-top: 0;
 }
 
+.editorial{
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.editorial.blue{
+    background-color: #43aaea;
+}
+
+.editorial.purple{
+    background-color: #9c72e4;
+}
+
+.editorial.green{
+    background-color: #64c0a9;
+}
+
+.editorial.orange{
+    background-color: #f29e33
+}
