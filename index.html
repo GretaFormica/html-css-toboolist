@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>To do list</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
     <link href="./style.css" rel="stylesheet">
 </head>
 <body>
@@ -12,15 +15,45 @@
     </header>
 
     <nav class="container nav">
-        <button value="Add task">Add Task</button>
-        <button value="Add section">Add Section</button>
+        <button value="Add task" class="add task">Add Task</button>
+        <button value="Add section" class="add section">Add Section</button>
     </nav>
 
     <main class="container main">
-        <details open="false">
-            <summary>New Task</summary>
-            Lorem ipsum dolor sit amet.
-        </details>
+
+        <div class="testo alto">
+
+            <details open="false">
+                <summary><b>New Task</b></summary>
+                &check; Lorem ipsum dolor sit amet.
+            </details>
+
+        </div>
+
+        <div class="testo mezzo">
+
+            <details open="false">
+                <summary><b>Today</b></summary>
+                &check; Lorem ipsum dolor sit amet. <br>
+                &check; Lorem ipsum dolor sit amet. <br>
+                &cross; Lorem ipsum dolor sit amet. <br>
+                &check; Lorem ipsum dolor sit amet.
+            </details>
+
+        </div>
+
+        <div class="testo basso">
+
+            <details open="false">
+                <summary><b>Upcoming</b></summary>
+                &cross; Lorem ipsum dolor sit amet. <br>
+                &check; Lorem ipsum dolor sit amet. <br>
+                &check; Lorem ipsum dolor sit amet. <br>
+                &check; Lorem ipsum dolor sit amet.
+            </details>
+
+        </div>
+      
 
     </main>
 

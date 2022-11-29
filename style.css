@@ -1,11 +1,12 @@
 /* general */
 html{
-    background-color: lightgrey;
+    background-color: #f6f8f9;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: poppins;
 }
 
 /* header */
@@ -32,16 +33,45 @@ header{
     background-color: white;
     padding: 40px;
     border-radius: 10px;
-
 }
+
+/* nav */
 
 .container.nav{
     height: 70px;
     margin-top: 30px;
 }
 
+.add{
+    box-sizing: content-box;
+    border-radius: 5px;
+    padding: 5px
+}
+
+.add.task{
+    background-color: #47adf1;
+    border: none;
+}
+
+.add.section{
+    color: gray;
+    border-color: #f6f8f9;
+}
+
+/* main */
+
 .container.main{ 
     height: 800px;
     margin-top: 3px;
     
 }
+
+.testo{
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+.testo.alto{
+    margin-top: 0;
+}
+
